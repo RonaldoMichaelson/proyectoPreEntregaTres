@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f2/Dirt_background_BE1.png/revision/latest?cb=20210820093527);
+}
+main{
+background-image: url(https://i.pinimg.com/originals/a9/b9/8c/a9b98c3574eaad53955a8bc73564792e.jpg);
+}
+footer{
+    background-image: url(https://e0.pxfuel.com/wallpapers/254/706/desktop-wallpaper-minecraft-stone-block-texture.jpg);
+}
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 12% auto 7%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+  padding: 30px;
+}
+.div0{
+display: flex;
+width: 0%;
+}
+.div1{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 62px;
+}
+
+nav ul li a{
+color: white;
+font-family: minecraft;
+
+}
+.header{
+}
+.logoPagina{
+    height: 9vh;
+    display: flex;
+width: 0%;
+    padding: 5px;
+    margin-top: 5px;
+}
+.textoLogo{
+    padding: 10px;
+}
+.textoLogo{
+color: white;
+font-family: minecraft;
+}
+@font-face{
+   font-family: minecraft;
+   src: url(../assets/font/Minecraft.ttf);
+}
