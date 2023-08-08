@@ -1,0 +1,45 @@
+nav ul li {
+    @include flex-center;
+    list-style: none;
+    padding: 30px;
+}
+
+.div0 {
+    @include flex-center;
+    width: 100%;
+
+}
+
+.div1 {
+    @include flex-center;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 68px;
+    width: 5%;
+}
+nav ul li{
+    background-image: url(../assets/img/Dirt_background_BE1.webp);
+}
+nav ul li a {
+ 
+    color: $color-blanco;
+    transition: background-color 1s;
+}
+
+nav ul li a:hover {
+    color: $color-verde;
+}
+
+.logoPagina {
+    height: 10vh;
+    display: flex;
+    padding: 5px;
+    margin-top: 5px;
+    position: relative;
+    right: 100px;
+
+    .textoLogo {
+        color: $color-verde;
+        padding: 15px;
+    }
+}

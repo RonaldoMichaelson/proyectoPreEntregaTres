@@ -7,6 +7,10 @@
 body {
   font-family: minecraft;
 }
+@font-face {
+  font-family: minecraft;
+  src: url(../assets/font/Minecraft.ttf);
+}
 
 a {
   text-decoration: none;
@@ -31,21 +35,31 @@ footer {
 }
 
 nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
-  display: inline-block;
   padding: 30px;
 }
 
 .div0 {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
 .div1 {
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
   position: relative;
   bottom: 68px;
+}
+
+nav ul li {
+  background-image: url(../assets/img/Dirt_background_BE1.webp);
 }
 
 nav ul li a {
@@ -62,6 +76,8 @@ nav ul li a:hover {
   display: flex;
   padding: 5px;
   margin-top: 5px;
+  position: relative;
+  right: 100px;
 }
 .logoPagina .textoLogo {
   color: green;
@@ -69,27 +85,30 @@ nav ul li a:hover {
 }
 
 .imgInicio {
-  height: 344px;
+  height: 500px;
   position: relative;
-  top: 100px;
+  top: 50px;
 }
 
 .divInicio {
   display: flex;
-  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 200px;
 }
 
 .textoInicio {
   position: relative;
   left: 500px;
-  bottom: 300px;
+  bottom: 400px;
   width: 50%;
 }
 
 .parrafoInicio {
   position: relative;
   left: 500px;
-  bottom: 300px;
+  bottom: 400px;
   width: 50%;
   color: black;
   font-weight: 700;
@@ -99,6 +118,8 @@ nav ul li a:hover {
   width: 85%;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 3rem;
@@ -145,6 +166,7 @@ nav ul li a:hover {
 .textoFooter {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 18px;
 }
 
@@ -152,12 +174,9 @@ nav ul li a:hover {
   margin-top: 5px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-@font-face {
-  font-family: minecraft;
-  src: url(../assets/font/Minecraft.ttf);
-}
 @media screen and (min-width: 0px) and (max-width: 768px) {
   nav ul li a {
     width: 10%;
@@ -166,7 +185,7 @@ nav ul li a:hover {
     display: block;
     position: relative;
     bottom: 40px;
-    right: 20px;
+    right: 0px;
     background-color: rgba(0, 128, 0, 0.39);
   }
   .textoInicio {
@@ -177,10 +196,13 @@ nav ul li a:hover {
   .parrafoInicio {
     position: relative;
     left: 50px;
-    top: 10px;
-    width: 70%;
+    top: 120px;
+    width: 85%;
   }
   .divHijo img {
-    height: 180px;
+    height: 160px;
+  }
+  .imgInicio {
+    height: 300px;
   }
 }/*# sourceMappingURL=styles.css.map */

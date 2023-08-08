@@ -1,0 +1,42 @@
+.imgInicio {
+    height: 500px;
+    position: relative;
+    top: 50px;
+}
+
+.divInicio {
+    @include flex-center;
+ position: relative;
+ top: 200px;
+}
+
+.textoInicio,
+.parrafoInicio {
+    position: relative;
+    left: 500px;
+    bottom: 400px;
+    width: 50%;
+}
+
+.parrafoInicio {
+    color: $color-negro;
+    font-weight: 700;
+}
+.mapaContacto {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.textoFooter {
+    @include flex-center;
+    margin-top: 18px;
+}
+
+.textoAnimales {
+    margin-top: 5px;
+    @include flex-center;
+}
+.textoContacto {
+    width: 40%;
+    margin-left: 50px;
+}
