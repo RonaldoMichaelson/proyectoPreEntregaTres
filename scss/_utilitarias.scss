@@ -21,6 +21,7 @@
 .parrafoInicio {
     color: $color-negro;
     font-weight: 700;
+    font-size: 24px;
 }
 .mapaContacto {
     margin-top: 20px;
@@ -39,4 +40,7 @@
 .textoContacto {
     width: 40%;
     margin-left: 50px;
+}
+.inputContacto{
+    background-color: antiquewhite;
 }

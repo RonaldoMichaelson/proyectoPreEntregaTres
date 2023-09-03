@@ -41,7 +41,6 @@ nav ul li {
  left: 500px;
  bottom: 50px;
   padding: 5px;
-  background-image: url(../assets/img/Dirt_background_BE1.webp);
 }
 
 nav ul li a {
@@ -183,4 +182,8 @@ nav ul li a:hover {
   .imgInicio {
     height: 200px;
   }
+}
+.inputContacto{
+  background-color: rgb(217, 183, 139);
+  font-family: minecraft;
 }
